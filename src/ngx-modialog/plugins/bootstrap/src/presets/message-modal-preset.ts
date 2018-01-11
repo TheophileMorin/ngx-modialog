@@ -84,6 +84,16 @@ export interface MessageModalPreset extends BSModalContext {
 
   buttons: BSMessageModalButtonConfig[];
   showInput?: any;
+
+  /**
+   * The input default value;
+   */
+  defaultValue?: any;
+
+  /**
+   * The input placeholder value;
+   */
+  placeholder?: any;
 }
 
 /**
